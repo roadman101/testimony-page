@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /* ### Primary */
+
+    -moderate-violet: hsl(263, 55%, 52%);
+    -very-dark-grayish-blue: hsl(217, 19%, 35%);
+    -very-dark-blackish-blue: hsl(219, 29%, 14%);
+    -White: hsl(0, 0%, 100%);
+
+    /* ### Neutral */
+
+    light-gray: hsl(0, 0%, 81%);
+    light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+@media (min-width: 768px) { 
+    body {
+        position: relative;
+        /* border: 10px solid red ; */
+        /* margin: auto; */
+        /* margin: 100px 100px; */
+    }
+}
+
+
+section {
+    /* background-color: hsl(210, 46%, 95%); */
+    font-family: "Barlow Semi Condensed", sans-serif;
+    
+}
+
+@media (min-width: 768px) {
+    section {
+        position: absolute;
+        margin: 40px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        display: grid;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+}
+
+p {
+    font-size: 13px;
+    color: hsl(210, 46%, 95%);
+    font-weight: 500;
+}
+h5 {
+    color: white;
+}
+strong {
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    line-height: 26px;
+}
+
+@media (min-width: 768px) {
+    strong {
+        font-size: 17px;
+        font-weight: 700;
+    }
+ }
+
+.cl-one {
+    background-color: hsl(263, 55%, 52%);
+    width: 480px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: grid;
+    gap: 15px;
+    position: relative;
+    z-index: 2;
+}
+ 
+@media (min-width: 768px) {
+    .cl-one {
+        
+        position: absolute;
+        top: 0;
+    }
+}
+
+.quott {
+    position: absolute;
+    z-index: -1;
+    right: 75px;
+}
+
+@media (max-width: 768px) {
+    .cl-one {
+        background-color: hsl(263, 55%, 52%);
+        width: 260px;
+        border-radius: 10px;
+        padding: 20px 30px;
+        display: grid;
+        gap: 15px;
+        position: relative;
+        z-index: 2;
+        box-shadow: 10px 10px black;
+    }
+    .cl-one:hover {
+        background-color: hsl(263, 55%, 52%);
+        width: 280px;
+        border-radius: 10px;
+        padding: 30px 30px;
+        display: grid;
+        gap: 20px;
+        position: relative;
+        z-index: 2;
+        box-shadow: 10px 10px black;
+    }
+    .imgxx:hover {
+        width: 60px;
+        height: 60px;
+    }
+    .cl-onex h5:hover {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .cl-onex p:hover {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .onexy strong:hover {
+        font-weight: 800;
+        font-size: 22px;
+    }
+    .cxxa:hover {
+        font-weight: 900;
+        font-size: 16px;
+    }
+    .quott {
+        position: absolute;
+        z-index: -1;
+        right: 15px;
+    }
+ }
+
+.cl-onex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* padding: 0 ; */
+}
+.cl-onex div {
+    display: grid;
+    gap: 4px;
+}
+.imgxx {
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%) ;
+}
+.onexy {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.smp {
+    line-height: 20px;
+}
+
+@media (min-width: 768px) { 
+    .cxxa {
+        font-size: 12px;
+        font-weight: 500;
+        width: 485px;
+    }   
+}
+
+
+/* ===================== */
+
+.jonat {
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px 30px;
+    width: 200px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .jonat {
+        position: absolute;
+        top: 0;
+        right: -540px;
+    }
+}
+
+@media (max-width: 768px) {
+    .jonat {
+        background-color: hsl(217, 19%, 35%);
+        padding: 40px 30px;
+        width: 260px;
+        border-radius: 10px;
+        display: grid;
+        gap: 20px;
+        box-shadow: 10px 10px black;
+    }
+    .jone-two strong:hover {
+        font-weight: 900;
+        font-size: 22px;
+    }
+    .jona-one h5:hover {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .jona-one p:hover {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .vvv:hover {
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+.jona-one {
+    display: flex;
+    gap: 20px;
+}
+.jona-one div {
+    display: grid;
+    gap: 4px;
+}
+
+.jone-two {
+    display: grid;
+    gap: 15px;
+}
+
+@media (min-width: 768px) {
+    .jone-two strong {
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+.vvv {
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+    .vvv {
+        font-size: 12px;
+        /* padding: 0 5px; */
+    }
+}
+
+/* ====================== */
+
+.jean {
+    width: 220px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background-color: white;
+    display: grid;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .jean {
+        position: absolute;
+        top: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .jean {
+        width: 260px;
+        padding: 30px 30px;
+        border-radius: 10px;
+        background-color: white;
+        display: grid;
+        gap: 20px;
+        box-shadow: 10px 10px black;
+    }
+    .xza:hover {
+        font-size: 20px;
+        /* width: 100px; */
+        font-weight: 700;
+        margin-right: px;
+        color: hsl(217, 19%, 35%);
+    }
+    .jxne-two strong:hover {
+        font-size: 22px;
+        font-weight: 700;
+        margin-right: px;
+        color: hsl(217, 19%, 35%);
+    }
+    .jxna-one h5:hover {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .jxna-one p:hover {
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+
+.bvx {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: px;
+    color: hsl(217, 19%, 35%);
+}
+
+@media (min-width: 768px) {
+    .bvx {
+        font-size: 20px;
+        /* width: 100px; */
+        font-weight: 700;
+        margin-right: px;
+        color: hsl(217, 19%, 35%);
+    }
+} 
+
+.jxna-one {
+    display: flex;
+    gap: 20px;
+}
+.jxna-one div {
+    display: grid;
+    gap: 4px;
+}
+.jxna-one h5 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+.jxna-one p {
+    color: hsl(0, 0%, 81%);
+}
+.xza {
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+    width: 220px;
+    font-size: 13px;
+}
+@media (max-width: 768px) { 
+    .xza {
+        color: hsl(217, 19%, 35%);
+        font-weight: 500;
+        width: 240px;
+        font-size: 13px;
+    }
+}
+
+.jxne-two {
+    display: grid;
+    gap: 20px;
+}
+
+/* ==================== */
+
+.patric {
+    background-color: black;
+    width: 260px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    padding: 30px 30px;
+}
+
+
+@media (max-width: 400px ) {
+    .patric {
+        box-shadow: 10px 10px hsl(217, 19%, 35%);
+    }
+    .patric:hover {
+        background-color: black;
+        width: 280px;
+        border-radius: 20px;
+        display: grid;
+        gap: 20px;
+        padding: 30px 30px;
+    }
+}
+
+.pati-one {
+    display: flex;
+    gap: 20px;
+    line-height: 18px;
+}
+.pat-two {
+    display: grid;
+    gap: 20px;
+}
+.pat-two strong {
+    /* width: 120px; */
+}
+
+@media (min-width: 768px) { 
+    .patric {
+        background-color: black;
+        width: 440px;
+        border-radius: 10px;
+        display: grid;
+        gap: 20px;
+        padding: 30px 30px;
+        position: absolute;
+        top: 320px;
+        left: 320px;
+    }
+
+    .iioo {
+        font-size: 11px;
+        font-weight: 500;
+    }
+}
+
+/* =============================== */
+
+.kiraa {
+    background-color: white;
+    width: 220px;
+    padding: 30px 30px;
+    display: grid;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+
+@media (min-width: 768px) { 
+    .kiraa {
+        position: relative;
+        left: 850px;
+    }
+}
+
+@media (max-width: 768px){
+    .kiraa {
+        position: relative;
+        background-color: white;
+        width: 260px;
+        padding: 30px 30px;
+        display: grid;
+        gap: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px black;
+    }
+
+    .kiraa:hover {
+        position: relative;
+        background-color: white;
+        width: 280px;
+        padding: 30px 30px;
+        display: grid;
+        gap: 20px;
+        border-radius: 20px;
+        box-shadow: 10px 10px black;
+    }
+
+    .kira-two strong:hover {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .kira-onhe:hover {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .kira-one div p:hover {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .zvv:hover {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+}
+
+.kira-one {
+    display: flex;
+    gap: 20px;
+}
+.kira-one div {
+    display: grid;
+    gap: 5px;
+}
+.kira-onhe {
+    color: black;
+}
+
+.kira-two {
+    display: grid;
+    gap: 20px;
+}
+.kira-two strong {
+    color: black;
+}
+.zvv {
+    color: brown;
+    width: 220px;
+}
+@media (max-width: 768px) { 
+    .zvv {
+        color: brown;
+        width: 260px;
+    }
+}
